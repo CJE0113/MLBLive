@@ -1,0 +1,7 @@
+library(XML)
+library(RMySQL)
+source("Util.R")
+source("getGameId.R")
+source("getCurrentWinExp.R")
+source("getMascot.R")
+connection <- dbConnect(MySQL(), user="root",dbname="sys", host="localhost")
